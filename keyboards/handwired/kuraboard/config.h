@@ -13,8 +13,8 @@
 #define PRODUCT      kuraboard
 
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 3
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 16
 
 /*
  * Keyboard Matrix Assignments
@@ -26,11 +26,12 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { D0, D5 }
-#define MATRIX_COL_PINS { F1, F0, B0 }
+/* Pinout used with QMK Proton C*/
+#define MATRIX_ROW_PINS { B0, B1, B2, B3, B4 }
+#define MATRIX_COL_PINS { A0, A1, A2, A4, A5, A6, A7, A8, B8, B13, B14, B15, B9, B10, B11, B12 }
 #define UNUSED_PINS
 
-/* COL2ROW, ROW2COL */
+/* COL2ROW or ROW2COL - how your matrix is configured. COL2ROW means the black mark on your diode is facing to the rows, and between the switch and the rows. */
 #define DIODE_DIRECTION COL2ROW
 
 /*
