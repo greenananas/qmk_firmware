@@ -7,7 +7,7 @@
 #define PRODUCT_ID      0xBBBB // Can be whatever you want in DIY projects
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Kura
-#define PRODUCT         Kura
+#define PRODUCT         KuraBoard
 
 /* Key matrix size */
 #define MATRIX_ROWS 5
