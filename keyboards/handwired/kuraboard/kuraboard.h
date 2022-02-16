@@ -12,6 +12,25 @@
  *
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
+ *
+ * The following is an example using the Kura layout.
+ */
+
+/*
+ * Absent keys row 0:
+ * k0d
+ *
+ * Absent keys row 1:
+ * k11
+ *
+ * Absent keys row 2:
+ * k21, k2e
+ *
+ * Absent keys row 3:
+ * k3c, k3e
+ *
+ * Absent keys row 4:
+ * k42, k44, k45, k47, k48, k49
  */
 
 #define LAYOUT( \
